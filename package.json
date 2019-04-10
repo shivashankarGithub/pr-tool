@@ -1,0 +1,19 @@
+{
+  "name": "pr-tool",
+  "version": "1.0.0",
+  "description": "Create a PR from your branch",
+  "main": "bin/commit.js",
+  "scripts": {
+    "pr-tool": "npm run bin/commit.js"
+  },
+  "bin": {
+    "pr-tool": "./cli.js"
+  },
+  "author": "Shiva Shankar Bavandla",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "opn": "^6.0.0",
+    "shelljs": "^0.8.3"
+  }
+}
